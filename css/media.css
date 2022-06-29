@@ -1,0 +1,152 @@
+@media(max-width:1199px){
+    .feature h4 {
+        font-size: 20px;
+      }
+      .couse ul li span {
+        margin-left: 4px;
+        font-size: 14px;
+    }
+    .testimoniaContent p {
+        font-weight: 500;
+        font-size: 12px;
+       
+    }
+}
+@media(max-width:991px){
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .bannerContent h1 {
+        font-size: 39px;
+        line-height: 55px;
+    }
+    .bannerContent p {
+        font-size: 13px;
+        line-height: 30px;
+        }
+        .feature {
+            padding: 25px 15px;
+        }
+        .feature h4 {
+            font-size: 16px;
+        }
+        .feature p {
+            font-size: 14px;
+            line-height: 16px;
+        }
+     
+        .couse {
+            padding: 20px 15px 20px;
+        }
+        .couse h2 {
+            font-size: 17px;
+            margin-top: 10px;
+            line-height: 20px;
+        }
+        .couse ul {
+            margin-top: 22px;
+        }
+        .couse ul li {
+            margin-top: 5px;
+        }
+        .testimoniaContent p {
+            font-size: 11px;
+        }
+        .widget ul li a {
+            font-size: 14px;
+            line-height: 28px;
+           }
+           .Copyright p {
+            margin-top: 40px;
+        }
+       
+
+}
+@media(max-width:767px){
+    .navbar-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bannerContent {
+        text-align: center;
+    }
+    .bannerContent p {
+        max-width: 333px;
+        margin: auto auto 10px;
+    }
+    .feature {
+        margin-bottom: 20px;
+    }
+    .couse{
+        margin-bottom: 20px;
+    }
+    .widget p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .widget strong {
+        font-size: 16px;
+       }
+       .widget ul li a {
+        font-size: 12px;
+        line-height: 27px;
+    }
+    footer {
+        padding: 30px 0 30px;
+    }
+    .Copyright p {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .testimoniaContent p {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .gallery {
+        
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:575px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 6px 20px !important;}
+    .bannerContent h1 {
+        font-size: 28px;
+        margin: auto;
+        line-height: 32px;
+    }
+    .bannerContent {
+        padding: 30px 0;
+    }
+    .bannerContent p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .bannerImg {
+     padding-top: 0px;
+    }
+    .hading h2 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .couse h2 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .couse p {
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--dack);
+    }
+    .widget {
+        text-align: center;
+    }
+    .gallery {
+      
+        margin-bottom: 20px;
+    }
+}
