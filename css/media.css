@@ -182,4 +182,17 @@
       
         margin-bottom: 20px;
     }
+    .gallery h1 {
+        font-size: 18px;
+      }
+      .gallery:hover .teaxBox {
+        transform: translate(-50%, -50%) scale(0.8) rotate(0);
+    }
+    .teaxBox {
+        padding: 12px 15px;
+        width: 300px;
+    }
+    .teaxBox p {
+        font-size: 15px;
+    }
 }
